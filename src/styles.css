@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.main-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid red;
+  padding: 0px 20px;
+  margin: 5px;
+}
+.main-form > h1 {
+  padding: 0px;
+}
+botton:hover {
+  background-color: cornflowerblue;
+}
+
+.navbar-expand {
+  flex-wrap: wrap !important;
+}
