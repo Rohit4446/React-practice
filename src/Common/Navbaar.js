@@ -63,6 +63,12 @@ const Navbaar = () => {
             <Link to="/refform" className="nav-link btn btn-outline-success">
               Ref
             </Link>
+            <Link
+              to="/methodasprop"
+              className="nav-link btn btn-outline-success"
+            >
+              Method As Prop
+            </Link>
           </Navbar>
         </div>
       </div>

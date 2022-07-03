@@ -19,6 +19,7 @@ import State from "./State-and-props/State";
 import Notes from "./Notes-app/Notes";
 import EventBind from "./Components/EventBind";
 import RefForm from "./Ref/RefForm";
+import ParentComp from "./Components/MethodAsProp/ParentComp";
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/notes" element={<Notes />} />
           <Route path="/eventbind" element={<EventBind />} />
           <Route path="/refform" element={<RefForm />} />
+          <Route path="/methodasprop" element={<ParentComp />} />
         </Routes>
       </BrowserRouter>
     </div>
