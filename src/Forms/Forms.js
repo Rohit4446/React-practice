@@ -20,9 +20,11 @@ const Forms = () => {
 
   const removeItem = (id) => {
     const finalData = data.filter((curEle, index) => {
+      console.log(index);
+      console.log(id);
       return index !== id;
     });
-
+    console.log(finalData);
     setData(finalData);
   };
 

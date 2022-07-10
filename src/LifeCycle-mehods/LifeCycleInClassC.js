@@ -38,10 +38,16 @@ class LifeCycleInClassC extends Component {
       <>
         <h1>
           current Time -:{" "}
-          {this.state.day + `/` + this.state.month + `/` + this.state.year +`,`  + this.state.time.toLocaleTimeString()}
+          {this.state.day +
+            `/` +
+            this.state.month +
+            `/` +
+            this.state.year +
+            `,` +
+            this.state.time.toLocaleTimeString()}
         </h1>
         <EventHandling />
-        {/*<LifeCycleInFunctionalC />*/}
+        <LifeCycleInFunctionalC />
       </>
     );
   }
